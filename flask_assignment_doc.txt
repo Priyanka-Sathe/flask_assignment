@@ -4,7 +4,7 @@ Documentation for Flask Demonstration.
 1) Install Python 3.* version.
 2) Install Flask using PIP command.
 3) for simplicity havent spent much time on Input CSV file formatting.(Got error utf-8, Input file was not comma separated) 
-   Please use data_file.csv or data_file_backup.csv
+   Please use data_file.csv or data_file_backup.csv(Modified also some changes in file to make them compatible)
 4) If using own CSV file please check format and add file name in util/config.py
 
 
