@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+    <body>
+        <h1>Books for {{qtype}}-{{arg1}}</h1>
+		   <table border="1">
+			<tbody>
+			<tr>
+			{% for (columnName, columnData) in df.iteritems() %}
+				<th>{{columnName}}</th>
+			{% endfor %}
+			</tr>
+			<tr>
+				{% for index,row in df.iterrows() %}
+				<tr>
+					{% for k in col_list %}
+						<td>{{row[k]}}</td>
+					{% endfor %}
+				</tr>
+				{% endfor %}
+				</tr>
+			</tbody>
+		</table>
+    </body>
+</html>
