@@ -9,9 +9,9 @@ Documentation for Flask Demonstration.
 
 
 To Access API endpoints-
-http://127.0.0.1:5000/api/book/name?args=Remembering%20Paradise
-http://127.0.0.1:5000/api/book/author?args=Kerstin%20Fischer
-http://127.0.0.1:5000/api/book/YearPublished?args=1990
-http://127.0.0.1:5000/api/book/subject?args=Semantics
+http://127.0.0.1:5000/api/book/name/Remembering%20Paradise
+http://127.0.0.1:5000/api/book/author/Kerstin%20Fischer
+http://127.0.0.1:5000/api/book/YearPublished/1990
+http://127.0.0.1:5000/api/book/subject/Semantics
 
 
